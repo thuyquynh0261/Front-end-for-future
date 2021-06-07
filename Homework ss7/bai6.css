@@ -1,0 +1,34 @@
+.body{
+    display: flex;
+    flex-direction: row;
+}
+
+.body .body_1{
+    width: 400px;
+    margin: 40px;
+}
+.body .body_1 .box_1{
+    background-color: violet;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    
+}
+.body .body_2{
+    margin-right: 40px;
+}
+.body .body_2 .content{
+    margin-left: 30px;
+}
+
+.body .body_3{
+    margin-right: 40px;
+    width: 250px;
+}
+.body .body_3 .content{
+    margin-left: 40px;
+}
+.body .body_4 .body_4_1{
+    display: flex;
+    flex-direction: row;
+}
